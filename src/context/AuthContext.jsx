@@ -3,7 +3,7 @@ import axios from 'axios'
 
 const AuthCtx = createContext()
 
-const API_BASE = import.meta.env.VITE_API_BASE || 'https://e-commerce-backend-16mq.onrender.com'
+const API_BASE = import.meta.env.VITE_API_BASE || 'https://e-commerce-frontend-bice-phi.vercel.app'
 
 export function AuthProvider({ children }) {
   const [token, setToken] = useState(localStorage.getItem('token'))

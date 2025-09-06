@@ -15,9 +15,8 @@
     "vite": "^7.1.4"
   },
   "scripts": {
-    "dev": "vite",
-    "build": "npx vite build",
-    "preview": "vite preview"
+    "build": "vite build"
   }
+
 
 }
